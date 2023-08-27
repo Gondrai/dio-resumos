@@ -49,6 +49,12 @@ git clone endereco_url nome-da-pasta-pc # exibir conteúdo de um arquivo
 git remote - v # verificar repositórios remotos
 ```
 ```
+git remote add origin url_repositorio # add repositórios remotos
+```
+```
+git push -u origin main # "Empurrar" as modificações para o repositório remoto
+```
+```
 git remote add origin url_repositório #conectar com repositório remoto
 ```
 ```
