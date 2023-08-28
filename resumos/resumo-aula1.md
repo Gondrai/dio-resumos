@@ -69,5 +69,19 @@ git reset --mixed #comportamento padrão, move os arquivos do ultimo commit para
 ```
 git reset --hard _commit_que deseja_retornar #apaga os arquivos dos commits
 ```
-
+```
+git checkout -b nome_branch #cria nova branch
+```
+```
+git checkout nome_branch #se locomover entre as branchs
+```
+```
+git branch -v #mostra as brachs
+```
+```
+git merge nome_branch #merge duas branchs
+```
+```
+git branch -d nome_branch #deletar branch
+```
 [Markdown basics](https://docs.github.com/pt/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
