@@ -84,4 +84,29 @@ git merge nome_branch #merge duas branchs
 ```
 git branch -d nome_branch #deletar branch
 ```
-[Markdown basics](https://docs.github.com/pt/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+```
+git fetch _repositorio_ nome_branch #ver alterações do repositorio remoto sem fazer o merge
+```
+```
+git diff nome_branch origin/nome_branch #comparar diferenças dos repositórios
+```
+```
+git clone url --branch nome_branch --single-branch # clonar somente uma branch
+```
+```
+git stash # ver modificacao arquivadas
+```
+```
+git stash list # arquiva modificacao
+```
+```
+git stash pop # traz modificacoes arquivadas e remove as modificacoes posteriores
+```
+
+```
+git stash apply # traz modificacoes arquivadas e mantem as modificacoes posteriores
+```
+
+
+[Markdown basics GITHUB](https://docs.github.com/pt/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+
