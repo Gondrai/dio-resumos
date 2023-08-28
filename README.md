@@ -13,6 +13,7 @@ Repositório para armazenar resumos sobre Git e Github o curso versionamento de 
 | Aulas | Resumos |
 |-------|---------|
 |Git e Github| [Resumos](resumos/resumo-aula1.md)|
+|Conhecendo Python| [Resumos](resumos/resumo-modointerativo.md)|
 
 ```
 git Init 
