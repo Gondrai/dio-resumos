@@ -1,5 +1,5 @@
 
-# Dio | Resumos Git e Github
+# Dio | Resumos Bootcamp Santander
 
 Repositório para armazenar resumos sobre Git e Github o curso versionamento de código com Git e Github.
 [Digital Innovation One](https://web.dio.me)
@@ -12,7 +12,7 @@ Repositório para armazenar resumos sobre Git e Github o curso versionamento de 
 
 | Aulas | Resumos |
 |-------|---------|
-|Gravando Alterações no Repositório local| [Resumos]()|
+|Git e Github| [Resumos]()|
 
 ```
 git Init 
