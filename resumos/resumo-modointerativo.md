@@ -1,4 +1,4 @@
-# Resumo de "Conhchendo a linguagem de programação Python"
+# Resumo de "Conhecendo a linguagem de programação Python"
 
 ## 🎲 Tipos de dados
 ### Existem diversos tipos de dados, mas os principais são: 
