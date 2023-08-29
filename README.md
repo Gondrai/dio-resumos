@@ -1,7 +1,7 @@
 
 # Dio | Resumos Bootcamp Santander
 
-Repositório para armazenar resumos sobre Git e Github o curso versionamento de código com Git e Github.
+Repositório para armazenar resumos sobre o bootcamp Santander 2023 Python.
 [Digital Innovation One](https://web.dio.me)
 
 ## 📚 Documentação
