@@ -27,3 +27,6 @@ dir (dado_do_tipo_que_quer_saber_os_diretorios)
 ```
 DEBUG = true
 ```
+- Padrão dos nomes deve ser Snake case (os espaços devem ser substituidos por underline) 🐍
+- Escolher nomes sugestivos
+  
