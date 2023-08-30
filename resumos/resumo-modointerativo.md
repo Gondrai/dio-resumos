@@ -29,4 +29,11 @@ DEBUG = true
 ```
 - Padrão dos nomes deve ser Snake case (os espaços devem ser substituidos por underline) 🐍
 - Escolher nomes sugestivos
+
+## ✍🏽 Convertendo tipos
+### 🧱 Estrutura: construtor(variável) 
+- float()
+- int()
+- str()
+
   
