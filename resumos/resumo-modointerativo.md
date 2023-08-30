@@ -36,4 +36,7 @@ DEBUG = true
 - int()
 - str()
 
+## 🎟 Função de entrada e saída
+
+
   
