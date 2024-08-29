@@ -1,5 +1,5 @@
 
-# Dio | Resumos Bootcamp Santander
+# Dio | Resumos Bootcamp NTT DATA
 
 Repositório para armazenar resumos sobre o bootcamp Santander 2023 Python.
 [Digital Innovation One](https://web.dio.me)
