@@ -38,3 +38,10 @@ elif opcao == 2;
 else: 
     sys.exit("Opção inválida")
 ```
+#### if aninhado
+
+Basta adicionar estruturas if/elif/else dentro de outras estrutruturas if/elif/else.
+
+```
+
+```
