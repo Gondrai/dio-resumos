@@ -24,3 +24,17 @@ if saldo >= saque:
 else:  
     print("O valor do saque é maior que o saldo em conta, favor selecionar valor válido"
 ```
+#### if/elif/else
+Faz o mesmo que o anterior, porém ele permite que mais de uma condição seja questionada. 
+
+```
+opcao = int(input("Informe uma opção: [1] Sacar\n [2] Extrato: "))
+
+if opcao == 1:
+    valor = float(input("Informe a quantia para o saque: "))
+    #
+elif opcao == 2;
+    print ("Exibindo extrato....")
+else: 
+    sys.exit("Opção inválida")
+```
