@@ -12,3 +12,22 @@ for letra in texto:
 print( ) #adiciona uma quebra de linha
 
 ```
+
+#### - Range :
+Recebe 3 argumentos
+ - Stop (Obrigatório)
+ - Start (Opcional)
+ - Step (Opcional)
+```
+# range(stop) -> range object
+# range(start, stop[step] -> range object
+---------------------------------------------------
+list(range(4))
+>>> [0,1,2,3]
+```
+Exemplo de uso dos 3 argumentos 
+```
+# tabuada do 5
+for numero in range(1, 50, 5):
+    print(numero, end="")
+```
