@@ -31,3 +31,13 @@ Exemplo de uso dos 3 argumentos
 for numero in range(1, 50, 5):
     print(numero, end="")
 ```
+#### - While
+Ideal para quando não sabemos previamente o número de iterações necessárias.
+
+```
+while opcao != 0:
+    opcao = int(input("[1] Sacar \n [2] Fazer depósito \n [0] Sair))
+
+    if opcao = 1
+
+```
