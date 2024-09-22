@@ -76,7 +76,7 @@
     profissao = dev
     linguagem = python
 
-    print( "Olá, me chamo %s. Tenho %d anos de idade, trabalho como %s e estou matriculada no curso de %s." (nome, idade, profissao,   
+    print( "Olá, me chamo %s. Tenho %d anos de idade, trabalho como %s e estou matriculada no curso de %s." % (nome, idade, profissao,   
      linguagem))
     
     ```
@@ -91,9 +91,9 @@
       print( "Olá, me chamo {}. Tenho {} anos de idade, trabalho como {} e estou matriculada no curso de {}.".format (nome, idade, profissao,   
      linguagem))
 
-      ### Também pode usar da forma, selecionando a posição das variáveis:
+      ### Também pode usar dessa forma, selecionando a posição das variáveis:
 
-      print( "Olá, me chamo {1}. Tenho {2} anos de idade, trabalho como {3} e estou matriculada no curso de {4}.".format (nome, idade, profissao, linguagem))
+      print( "Olá, me chamo {0}. Tenho {1} anos de idade, trabalho como {2} e estou matriculada no curso de {3}.".format (nome, idade, profissao, linguagem))
       
       ```
       
