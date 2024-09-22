@@ -43,3 +43,5 @@ while opcao != 0:
 ```
 #### Break quebra o laço de repetição quando determinada opção for satisfeita.
 Pode ser utilizado para validar casos que em um saque, por exemplo, for identificada situação suspeita.
+
+#### Continue serve para quando você quer pular uma parte da execução.
