@@ -4,26 +4,34 @@
 - upper()
   
   > Converte todos os carcteres para maisculo
+  
   ```
   print(curso.upper())
+  
   ```
 - lower()
   
   > Converte todos os carcteres para maisculo
+  
    ```
   print(curso.lower())
+   
   ```
 - title()
   
   > Converte todos os carcteres para minusculo, exceto o primeiro
+  
    ```
   print(curso.title())
+   
   ```
 - strip()
   
   > Remove os espaços em branco da direita e esquerda
+  
    ```
   print(curso.strip())
+  
   ```
 - lstrip()
   
@@ -34,20 +42,26 @@
 - rstrip()
   
   > Remove os espaços em branco da direita
+  
    ```
   print(curso.rstrip())
+   
   ```
 - center()
   
   > Centraliza o objeto, pode receber dois parametros, a quantidade de caracteres que a palavra terá e qual o caractere será inserido para preencher esse valor.
+  
   ```
   print(curso.center(10, "#")
+  
   ```
 - join(string)
   
   > Serve para juntar carcteres a nossa string, serve para todo tipo       iterável, ele vai iterar a cada item. (Mais comum utilizar em listas)
+  
     ```
     print ( ".".join(curso))
+    
     ```
 
 ## Interpolação de variáveis
@@ -64,8 +78,10 @@
 
     print( "Olá, me chamo %s. Tenho %d anos de idade, trabalho como %s e estou matriculada no curso de %s." (nome, idade, profissao,   
      linguagem))
+    
     ```
   -  Método format
+    
       ```
       nome = Isabela
       idade = 76
@@ -82,12 +98,17 @@
       ```
       
   - f-string
+    
     ```
     nome = Isabela
     idade = 76
     profissao = dev
     linguagem = python
 
-    print( "Olá, me chamo {nome}. Tenho {idade} anos de idade, trabalho como {profissao} e estou matriculada no curso de {linguagem}.")
+    print( f"Olá, me chamo {nome}. Tenho {idade} anos de idade, trabalho como {profissao} e estou matriculada no curso de {linguagem}.")
+    PI = 3.14159
+    print( f"Valor de PI: {PI:.2f}")
+    print( f"Valor de PI: {PI:10.2f}")
+    
     ```
 
