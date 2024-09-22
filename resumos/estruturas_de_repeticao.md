@@ -1,4 +1,4 @@
-# Estruturas de repetição
+# Estruturas de repetição ➰
 #### Estrututas utilizadas para repetir um trecho de código.
 #### - For:
 Ideal para quando sabemos o número de iterações necessárias.
@@ -41,3 +41,5 @@ while opcao != 0:
     if opcao = 1
 
 ```
+#### Break quebra o laço de repetição quando determinada opção for satisfeita.
+Pode ser utilizado para validar casos que em um saque, por exemplo, for identificada situação suspeita.
