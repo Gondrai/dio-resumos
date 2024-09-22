@@ -80,5 +80,14 @@
       print( "Olá, me chamo {1}. Tenho {2} anos de idade, trabalho como {3} e estou matriculada no curso de {4}.".format (nome, idade, profissao, linguagem))
       
       ```
+      
+  - f-string
+    ```
+    nome = Isabela
+    idade = 76
+    profissao = dev
+    linguagem = python
 
-- f-string
+    print( "Olá, me chamo {nome}. Tenho {idade} anos de idade, trabalho como {profissao} e estou matriculada no curso de {linguagem}.")
+    ```
+
