@@ -31,3 +31,14 @@
    ```
   print(curso.rstrip())
   ```
+- center()
+  > Centraliza o objeto, pode receber dois parametros, a quantidade de caracteres que a palavra terá e qual o caractere será inserido para preencher esse valor.
+  ```
+  print(curso.center(10, "#")
+  ```
+- join(string)
+  > Serve para juntar carcteres a nossa string, serve para todo tipo       iterável, ele vai iterar a cada item. (Mais comum utilizar em listas)
+    ```
+    print ( ".".join(curso))
+    ```
+
