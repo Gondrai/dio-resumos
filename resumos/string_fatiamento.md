@@ -1,6 +1,6 @@
-## Classe String Python 
+# Classe String Python 
 ### Manipular sequências de caracteres.
-#### Métodos úteis da classe string: 
+## Métodos úteis da classe string: 
 - upper()
   
   > Converte todos os carcteres para maisculo
@@ -111,4 +111,9 @@
     print( f"Valor de PI: {PI:10.2f}")
     
     ```
+## Fatiamento de String
+### Técnica para retornar substrings.
+#### São informados o inicio(start), o final(stop) e passo(step): [start: stop[step]].
+
+
 
