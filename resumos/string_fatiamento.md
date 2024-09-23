@@ -115,5 +115,16 @@
 ### Técnica para retornar substrings.
 #### São informados o inicio(start), o final(stop) e passo(step): [start: stop[step]].
 
+```
+nome = "Isabela de Gondra Mendonça Pereira"
 
+nome[0]
+nome[:9]
+nome[10:]
+nome[10:16]
+nome[10:16:2]
+nome[:]
+nome[::-1]
+
+```
 
