@@ -127,4 +127,4 @@ nome[:]
 nome[::-1]
 
 ```
-
+## String múltiplas linhas
