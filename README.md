@@ -12,7 +12,7 @@ Repositório para armazenar resumos e códigos sobre do bootcamp NTT DATA 2024.
 
 | Aulas | Resumos |
 |-------|---------|
-|Git e Github| [Resumos](resumos/resumo-aula1.md)|
+|Git e Github| [Resumos](resumos/resumo_git_github.md)|
 |Conhecendo Python| [Resumos](resumos)|
 
 ```
