@@ -1,4 +1,4 @@
-# 👩‍🔧 Tipos de operadores em python
+## Tipos de operadores em python 👩‍🔧 
 
   - Operadores aritméticos
   - Operadores de comparação
@@ -7,20 +7,20 @@
   - Operadores de Identidade
   - Operadores de associação
 
-## ➕ Operadores aritméticos 
+### Operadores aritméticos ➕ 
 
  - +, -, *
  - /, // divisão inteira
  - % módulo
  - ** exponenciação
 
-## 🟢🔴 Operadores de comparação
+### Operadores de comparação 🟢🔴 
 
 > Retorna false ou true:
 - Menor igual (<=), Menor (<)
 - Maior igual (>=), Maior (>)
 
-## 👨‍💻 Operadores Lógicos
+### Operadores Lógicos 👨‍💻
 - E (and)
 ```
 Saldo >= saque and saque <= limite
@@ -37,7 +37,7 @@ not 1000> 1500
 > * Uma lista vazia no Python é considerado um valor boleano falso
 > * Uma string vazia em python também tem valor boleano falso
 
-## 🆔 Operadores de identidade
+### Operadores de identidade 🆔
 
 > Compara se os objetos estão no mesmo lugar da memória
 - is
@@ -50,7 +50,7 @@ curso is nome_curso
 curso is not nome_curso
 saldo is limite
 ```
-# 🔗 Operadores de associação 
+### Operadores de associação 🔗
 
 > Verifica se uma string está presente em outra
 - in
