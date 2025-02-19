@@ -109,4 +109,23 @@ salario_com_bonus = salario_bonus(500)
 print(salario_com_bonus)
 
 ```
+### A lista é um elemento imutável, ou seja, todas as alterações feitas no escopo local são refletidas no escopo global, para evitar isso devemos realizar uma duplicata da lista
+
+```
+salario = 2000
+
+def salario_bonus(bonus, lista, lista):
+    global salario # informando que a variavel é global
+    lista_aux = lista.copy()
+    lista.aux.append(2)
+    print(f"lista é = {lista_aux}")
+
+    salario += bonus
+    return salario
+
+lista = [1]
+salario_com_bonus = salario_bonus(500)
+print(salario_com_bonus)
+
+```
 
