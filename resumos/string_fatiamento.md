@@ -127,4 +127,18 @@ nome[:]
 nome[::-1]
 
 ```
-## String múltiplas linhas
+## String múltiplas linhas ou strings triplas
+### Facilita na utilização de várias strings sem precisar concatenar uma por uma
+
+```
+
+nome = "Gruilherme"
+mensagen = f"""
+  Olá meu nome é {nome},
+Eu estou aprendendo python.
+    Essa mensagem tem diferentes recuos.
+    
+```
+
+
+
