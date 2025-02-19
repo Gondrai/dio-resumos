@@ -67,5 +67,14 @@ def exibir_poema(data_extenso, *args, **kwargs):
     print(mensagem)
 exibir_poema("Sexta, 26 ago 22", "Zen of Python", "Beatiful is better than ugly.", author = "Tim peters", ano = 1999)
 ```
+### Parâmetros Especiais
+#### Esses parâmetros têm a definição se devem ser só por posição ou nomeados também. 
 
+> Sintaxe
+>> ``` def f (pos1, pos2, /, pos_or_kwd, *, kwd1, kwd2):```
+>> - / - até onde ficam os posicionais apenas
+>> - _*_ Até onde podem ser nomeados ou posicionais também
+>> - Após o _*_ todos os que são somente nomeados
+
+ 
 
