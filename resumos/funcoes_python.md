@@ -96,3 +96,17 @@ exibir_resultado(10,10, somar)
 #### - A palavra-chave **_global_**, informa ao interpretador que a variável utilizada no escopo local é global.
 > [!CAUTION]
 > Não é uma boa prática e deve ser evitada. 
+
+```
+salario = 2000
+
+def salario_bonus(bonus):
+    global salario # informando que a variavel é global
+    salario += bonus
+    return salario
+
+salario_com_bonus = salario_bonus(500)
+print(salario_com_bonus)
+
+```
+
