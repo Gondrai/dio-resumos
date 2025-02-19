@@ -109,7 +109,7 @@ salario_com_bonus = salario_bonus(500)
 print(salario_com_bonus)
 
 ```
-### A lista é um elemento imutável, ou seja, todas as alterações feitas no escopo local são refletidas no escopo global, para evitar isso devemos realizar uma duplicata da lista
+### A lista é um elemento mutável, ou seja, todas as alterações feitas no escopo local são refletidas no escopo global, para evitar isso devemos realizar uma duplicata da lista
 
 ```
 salario = 2000
