@@ -76,5 +76,23 @@ exibir_poema("Sexta, 26 ago 22", "Zen of Python", "Beatiful is better than ugly.
 >> - _*_ Até onde podem ser nomeados ou posicionais também
 >> - Após o _*_ todos os que são somente nomeados
 
+## Objetos de primeira classe
+### Em python _tudo_ é objeto, inclusive funções
+#### Sendo assim, podemos atribuir funções a variáveis, passar elas como parâmetro para funções, usá-las como valores em estruturas de dados. 
  
+```
+def somar(a,b):
+    return a+b
 
+def exibir_resultado(a,b, funcao):
+    resultado = funcao(a,b)
+    print(f"o resultado da operacao {a} + {b} = {resultado}")
+
+exibir_resultado(10,10, somar)
+```
+
+## Escopo local e global 
+### Dentro de um bloco de função o escopo é local
+#### - A palavra-chave **_global_**, informa ao interpretador que a variável utilizada no escopo local é global.
+> [!CAUTION]
+> Não é uma boa prática e deve ser evitada. 
